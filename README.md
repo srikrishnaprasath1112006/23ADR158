@@ -1,37 +1,101 @@
 <html>
 <head>
-<title>Form in HTML</title>
+<title>Time table</title>
 </head>
-<body bgcolor="sky blue ">
-<h1>Registration form</h1>
-<form>
-<label>Name</label>
-<input type="text" name="name"/><br><Br>
-<label>Date of birth</label>
-<input type="date" name="DOB"/><br><br>
-<label>Age</label>
-<input type="text" name="Age"/><br><br>
-<label>Enter your gender</label><br> <br>
-<input type="radio" id="gender" name="gender" value="male"/>Male<br>
-<input type="radio" id="gender" name="gender" value="female"/>Female<br>
-<input type="radio" id="gender" name="gender" value="others"/>Others<br> <br>
-<label>Email</label>
-<input type="email" name="email"/><br><br>
-<label>Password</label>
-<input type="password" name="password"/><br> <br>
-<Label>Mobile Number</label>
-<input type="tel" name="mobile number/"><br>
-<br>Enter your Address:<br>
-<textarea></textarea><br> <br>
-<label>Enter your option</label><br> <br>
-<input type="checkbox"/>
-<label for="vehical">I have a bike</label> <br>
-<input type="checkbox"/>
-<label for="vehical">I have a car</label> <br>
-<input type="checkbox"/>
-<label for="vehical">I have a boot</label> <br><br>
-<label for ="document">choose file</label>
-<input type="file" id="document><br><br>
-<input type="submit" value="sign-up">
+<body>
+<table>
+<style>
+table,th,td{
+border : 2px solid black;
+column-width:100px;
+border-collapse:collapse;
+text-align:center;
+}
+th{
+background-color:grey;
+}
+td{
+background-color:yellow;}
+</style>
+<tr>
+<caption style="color:blue" colspan="12" >TIME TABLE</caption><br><br>
+<th><b>Day<b></th>
+<th style = "color:blue">8.45<br>to<br>9.40</th>
+<th style="color:blue">9.40<br>to <br>10.25</th>
+<th style="color:blue">10.25<br> to <br>10.45</th>
+<th style="color:blue">10.45<br> to <br>11.10</th>
+<th style="color:blue">11.10<br> to <br>12.15</th>
+<th style="color:blue">12.15<br>to<br>1.15</th>
+<th style="color:blue">1.15 <br>to <br>2.00</th>
+<th style="color:blue">2.00 <br>to<br> 2.45</th>
+<th style="color:blue">2.45<br>to<br>3.00</th>
+
+<th style="color:blue">3.00<br> to <br>3.45</th>
+<th style="color:blue">3.45<br> to<br> 4.30</th>
+</tr>
+<tr>
+<th style="color:red">Monday</th>
+<td colspan="2">CP</td>
+<th rowspan="7">b<br>r<br>e<br>a<br>k</th>
+<td colspan="2">EIT(cc2)</td>
+<th rowspan="7" bgcolor="green">L<br>u<br>n<br>c<br>h</th>
+<td>PHY</td>
+<td>CP</td>
+<th rowspan="7">b<br>r<br>e<br>a<br>k</th>
+<td>CS-1</td>
+<td>MODE</td>
+</tr><br><br>
+<tr>
+<th style="color:red">Tuesday</th>
+<td>EIT</td>
+<td>CP</td>
+<td>LIB</td>
+<td>MODE</td>
+<td>CS-1</td>
+<td>PHY LAB</td>
+<td colspan ="2">PHY LAB</td>
+</tr>
+<tr>
+<th style="color:red">Wednesday</th>
+<td>PHY</td>
+<td>LIB</td>
+<td>EIT</td>
+<td>Cp</td>
+<td>LIB</td>
+<td>PHY</td>
+<td>MODE</td>
+<td>CS-1</td>
+</tr>
+<tr>
+<th style="color:red">Thursday</th>
+<td>MODE</td>
+<td>CP</td>
+<td>CP</td>
+<td>PHY</td>
+<td>MODE</td>
+<td>EIT</td>
+<td>CS-1</td>
+<td>TAMIL</td>
+</tr>
+<tr>
+<th style="color:red">Friday</th>
+<td>CS-1</td>
+<td>EIT</td>
+<td colspan="2">CP</td>
+<td colspan="2">PHY</td>
+<td colspan="2">MAT LAB</td>
+</tr>
+<tr>
+<th style="color:red">Saturday</th>
+<td>MODE</td>
+<td>CS-1</td>
+<td>CP</td>
+<td>PHY</td>
+<td>EIT</td>
+<td>TAMIL</td>
+<td>SPD</td>
+<td>PET</td>
+</tr>
+</table>
 </body>
 </html>
